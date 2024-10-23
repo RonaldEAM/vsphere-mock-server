@@ -1,0 +1,23 @@
+module.exports = {
+  allow_guest_control: false,
+  backing: {
+    connection_cookie: 0,
+    distributed_port: "string",
+    distributed_switch_uuid: "string",
+    host_device: "string",
+    network: "string",
+    network_name: "string",
+    opaque_network_id: "string",
+    opaque_network_type: "string",
+    type: "STANDARD_PORTGROUP",
+  },
+  label: "string",
+  mac_address: "string",
+  mac_type: "MANUAL",
+  pci_slot_number: 0,
+  start_connected: false,
+  state: "enum",
+  type: "E1000",
+  upt_compatibility_enabled: false,
+  wake_on_lan_enabled: false,
+};
